@@ -1,0 +1,65 @@
+
+#brick {
+    height : 30px;
+    width : 30px;    
+    display : block;
+    background-color: green;
+    float : left;
+}
+
+/* Main board (16 * 20) */
+#board {
+    position : fixed;
+    top : 50%; left : 50%;
+    margin-top : -240px;
+    margin-left : -240px;
+}
+
+/* Main board - Wall bricks */
+#brick_wall {
+    height : 30px;
+    width : 30px;    
+    display : block;
+    border : 1px solid blue;
+    background-color: red;
+}
+
+/* Main board - vacant parts */
+#brick_blank {
+    height : 30px;
+    width : 30px;    
+    display : block;
+    background-color: white;
+}
+
+/* Moving block */
+#moving_block{ 
+    display : block;
+    height : 30px;
+    width : 30px;
+    border : 1px solid blue;
+    background-color : green;
+}
+
+#random_blocks {
+    display : block;
+    height : 30px;
+    width : 30px;
+}
+
+div #text area {
+    position : fixed;
+    top : 100px;
+    left : 100px;
+}
+
+#logo {
+    font-family:  "Times New Roman", Times, serif;
+    font-size : 40px;
+}
+
+#desc {
+    color : "black";
+    font-family:  "Times New Roman", Times, serif;
+    font-size:  20px;
+}
